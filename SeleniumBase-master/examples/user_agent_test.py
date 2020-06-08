@@ -10,4 +10,5 @@ class MyTestClass(BaseCase):
         print("Displaying User-Agent Info:")
         print(self.get_text("#useragent"))
         print("\nThe browser will close automatically in 7 seconds...")
+        print("yaniv")
         self.sleep(7)
